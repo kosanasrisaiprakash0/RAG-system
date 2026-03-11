@@ -1,4 +1,38 @@
+# Python cache
 __pycache__/
 *.pyc
-.env
+*.pyo
+*.pyd
+
+# Virtual environments
 venv/
+env/
+.venv/
+
+# Environment variables (API keys)
+.env
+
+# Model / embedding caches
+.cache/
+models/
+
+# Data files (optional large datasets)
+data/
+
+# HuggingFace cache
+.huggingface/
+hf_cache/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
