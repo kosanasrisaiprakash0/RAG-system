@@ -14,8 +14,13 @@ This project implements a simple Retrieval-Augmented Generation pipeline that re
 Document → Chunking → Embedding → Retrieval → Response
 
 ## Tech Stack
-Python  
-Sentence Transformers  
-Embeddings  
-Similarity Search
+- Python  
+- Sentence Transformers  
+- Embeddings  
+- Similarity Search
 
+## Future Improvements
+- Integrate a vector database (FAISS/ChromaDB)
+- Support multiple document formats
+- Improve retrieval accuracy
+- Build a complete end-to-end RAG pipeline
